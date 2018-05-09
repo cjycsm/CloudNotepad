@@ -10,4 +10,14 @@
 
 @interface Note : NSObject
 
+@property (nonatomic, assign) int idNumber;
+@property (nonatomic, strong) NSDate *time;
+@property (nonatomic, copy) NSString *text;
+@property (nonatomic, strong) NSData *pic;
+@property (nonatomic, assign) NSUInteger picNumber;
+@property (nonatomic, assign) BOOL isLocked;
+@property (nonatomic, strong) NSDate *lockChangeTime;
+@property (nonatomic, strong) NSData *authors;
+@property (nonatomic, assign) BOOL isDeleted;
+
 @end

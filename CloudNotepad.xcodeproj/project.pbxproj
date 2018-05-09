@@ -7,25 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C014000208DAD2A00BAA430 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C013FFF208DAD2A00BAA430 /* Note.m */; };
+		3C014004208DC61E00BAA430 /* NoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C014002208DC61E00BAA430 /* NoteTableViewCell.m */; };
+		3C014005208DC61E00BAA430 /* NoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C014003208DC61E00BAA430 /* NoteTableViewCell.xib */; };
+		3C25535620897FE60034194D /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C25535420897FE60034194D /* ShareViewController.m */; };
+		3C25535720897FE60034194D /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C25535520897FE60034194D /* ShareViewController.xib */; };
+		3C5075072050045500C9832C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C5075052050045500C9832C /* HomeViewController.xib */; };
+		3C56CFA820514C7000061DE6 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C56CFA620514C7000061DE6 /* TextViewController.m */; };
+		3C6654782092BF3200D4A540 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6654772092BF3200D4A540 /* SystemConfiguration.framework */; };
+		3C66547A2093086C00D4A540 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5075042050045500C9832C /* HomeViewController.m */; };
+		3CADCD0F20985D3F006702F8 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CADCD0D20985D3F006702F8 /* RegisterViewController.m */; };
+		3CADCD1020985D3F006702F8 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CADCD0E20985D3F006702F8 /* RegisterViewController.xib */; };
 		3CB34F03204FF9F4007DD266 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB34F02204FF9F4007DD266 /* AppDelegate.m */; };
-		3CB34F06204FF9F4007DD266 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB34F05204FF9F4007DD266 /* ViewController.m */; };
-		3CB34F09204FF9F4007DD266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB34F07204FF9F4007DD266 /* Main.storyboard */; };
 		3CB34F0B204FF9F4007DD266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB34F0A204FF9F4007DD266 /* Assets.xcassets */; };
 		3CB34F0E204FF9F4007DD266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB34F0C204FF9F4007DD266 /* LaunchScreen.storyboard */; };
 		3CB34F11204FF9F4007DD266 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB34F10204FF9F4007DD266 /* main.m */; };
+		3CB34F2E204FFD6C007DD266 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB34F2C204FFD6C007DD266 /* SettingViewController.m */; };
+		3CB34F2F204FFD6C007DD266 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CB34F2D204FFD6C007DD266 /* SettingViewController.xib */; };
+		3CD63D232099BF6200A3A3FF /* CloudAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD63D222099BF6200A3A3FF /* CloudAction.m */; };
+		3CDCA2992099611800F538D9 /* CloudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCA2972099611800F538D9 /* CloudViewController.m */; };
+		3CDCA29A2099611800F538D9 /* CloudViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCA2982099611800F538D9 /* CloudViewController.xib */; };
+		3CE0988920724AAA00993B2C /* LocalDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0988820724AAA00993B2C /* LocalDatabase.m */; };
+		3CF4473220945E3B00AA070E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF4473020945E3B00AA070E /* LoginViewController.m */; };
+		3CF4473320945E3B00AA070E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CF4473120945E3B00AA070E /* LoginViewController.xib */; };
+		4EE08548CD3BDA3F7023348A /* libPods-CloudNotepad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B385301F4F4987C6F1563EF /* libPods-CloudNotepad.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CAD0DDF9E0F251CB76FA5E9 /* Pods-CloudNotepad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudNotepad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudNotepad/Pods-CloudNotepad.debug.xcconfig"; sourceTree = "<group>"; };
+		3C013FFE208DAD2A00BAA430 /* Note.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		3C013FFF208DAD2A00BAA430 /* Note.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		3C014001208DC61E00BAA430 /* NoteTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteTableViewCell.h; sourceTree = "<group>"; };
+		3C014002208DC61E00BAA430 /* NoteTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteTableViewCell.m; sourceTree = "<group>"; };
+		3C014003208DC61E00BAA430 /* NoteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteTableViewCell.xib; sourceTree = "<group>"; };
+		3C25535320897FE60034194D /* ShareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		3C25535420897FE60034194D /* ShareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		3C25535520897FE60034194D /* ShareViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
+		3C5075032050045500C9832C /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3C5075042050045500C9832C /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		3C5075052050045500C9832C /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		3C56CFA520514C7000061DE6 /* TextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		3C56CFA620514C7000061DE6 /* TextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		3C6654772092BF3200D4A540 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3CADCD0C20985D3F006702F8 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		3CADCD0D20985D3F006702F8 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		3CADCD0E20985D3F006702F8 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		3CB34EFE204FF9F4007DD266 /* CloudNotepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudNotepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CB34F01204FF9F4007DD266 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3CB34F02204FF9F4007DD266 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3CB34F04204FF9F4007DD266 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3CB34F05204FF9F4007DD266 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3CB34F08204FF9F4007DD266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CB34F0A204FF9F4007DD266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CB34F0D204FF9F4007DD266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CB34F0F204FF9F4007DD266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CB34F10204FF9F4007DD266 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CB34F2B204FFD6C007DD266 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		3CB34F2C204FFD6C007DD266 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		3CB34F2D204FFD6C007DD266 /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		3CD1EEA02052B054002A615B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3CD63D212099BF6200A3A3FF /* CloudAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudAction.h; sourceTree = "<group>"; };
+		3CD63D222099BF6200A3A3FF /* CloudAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudAction.m; sourceTree = "<group>"; };
+		3CDCA2962099611800F538D9 /* CloudViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudViewController.h; sourceTree = "<group>"; };
+		3CDCA2972099611800F538D9 /* CloudViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudViewController.m; sourceTree = "<group>"; };
+		3CDCA2982099611800F538D9 /* CloudViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CloudViewController.xib; sourceTree = "<group>"; };
+		3CE0988720724AAA00993B2C /* LocalDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalDatabase.h; sourceTree = "<group>"; };
+		3CE0988820724AAA00993B2C /* LocalDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalDatabase.m; sourceTree = "<group>"; };
+		3CF4472F20945E3B00AA070E /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3CF4473020945E3B00AA070E /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		3CF4473120945E3B00AA070E /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		8480EACEE6388A5FEB5320CE /* Pods-CloudNotepad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudNotepad.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudNotepad/Pods-CloudNotepad.release.xcconfig"; sourceTree = "<group>"; };
+		8B385301F4F4987C6F1563EF /* libPods-CloudNotepad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudNotepad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +82,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6654782092BF3200D4A540 /* SystemConfiguration.framework in Frameworks */,
+				4EE08548CD3BDA3F7023348A /* libPods-CloudNotepad.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30140CF65288D73B547B599D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CAD0DDF9E0F251CB76FA5E9 /* Pods-CloudNotepad.debug.xcconfig */,
+				8480EACEE6388A5FEB5320CE /* Pods-CloudNotepad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3CB34EF5204FF9F4007DD266 = {
 			isa = PBXGroup;
 			children = (
 				3CB34F00204FF9F4007DD266 /* CloudNotepad */,
 				3CB34EFF204FF9F4007DD266 /* Products */,
+				30140CF65288D73B547B599D /* Pods */,
+				648C573AE9BDF9F9B4879DEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +122,50 @@
 			children = (
 				3CB34F01204FF9F4007DD266 /* AppDelegate.h */,
 				3CB34F02204FF9F4007DD266 /* AppDelegate.m */,
-				3CB34F04204FF9F4007DD266 /* ViewController.h */,
-				3CB34F05204FF9F4007DD266 /* ViewController.m */,
-				3CB34F07204FF9F4007DD266 /* Main.storyboard */,
 				3CB34F0A204FF9F4007DD266 /* Assets.xcassets */,
 				3CB34F0C204FF9F4007DD266 /* LaunchScreen.storyboard */,
 				3CB34F0F204FF9F4007DD266 /* Info.plist */,
 				3CB34F10204FF9F4007DD266 /* main.m */,
+				3CB34F2B204FFD6C007DD266 /* SettingViewController.h */,
+				3CB34F2C204FFD6C007DD266 /* SettingViewController.m */,
+				3CB34F2D204FFD6C007DD266 /* SettingViewController.xib */,
+				3C5075032050045500C9832C /* HomeViewController.h */,
+				3C5075042050045500C9832C /* HomeViewController.m */,
+				3C5075052050045500C9832C /* HomeViewController.xib */,
+				3C56CFA520514C7000061DE6 /* TextViewController.h */,
+				3C56CFA620514C7000061DE6 /* TextViewController.m */,
+				3CE0988720724AAA00993B2C /* LocalDatabase.h */,
+				3CE0988820724AAA00993B2C /* LocalDatabase.m */,
+				3C25535320897FE60034194D /* ShareViewController.h */,
+				3C25535420897FE60034194D /* ShareViewController.m */,
+				3C25535520897FE60034194D /* ShareViewController.xib */,
+				3C013FFE208DAD2A00BAA430 /* Note.h */,
+				3C013FFF208DAD2A00BAA430 /* Note.m */,
+				3C014001208DC61E00BAA430 /* NoteTableViewCell.h */,
+				3C014002208DC61E00BAA430 /* NoteTableViewCell.m */,
+				3C014003208DC61E00BAA430 /* NoteTableViewCell.xib */,
+				3CF4472F20945E3B00AA070E /* LoginViewController.h */,
+				3CF4473020945E3B00AA070E /* LoginViewController.m */,
+				3CF4473120945E3B00AA070E /* LoginViewController.xib */,
+				3CADCD0C20985D3F006702F8 /* RegisterViewController.h */,
+				3CADCD0D20985D3F006702F8 /* RegisterViewController.m */,
+				3CADCD0E20985D3F006702F8 /* RegisterViewController.xib */,
+				3CDCA2962099611800F538D9 /* CloudViewController.h */,
+				3CDCA2972099611800F538D9 /* CloudViewController.m */,
+				3CDCA2982099611800F538D9 /* CloudViewController.xib */,
+				3CD63D212099BF6200A3A3FF /* CloudAction.h */,
+				3CD63D222099BF6200A3A3FF /* CloudAction.m */,
 			);
 			path = CloudNotepad;
+			sourceTree = "<group>";
+		};
+		648C573AE9BDF9F9B4879DEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C6654772092BF3200D4A540 /* SystemConfiguration.framework */,
+				8B385301F4F4987C6F1563EF /* libPods-CloudNotepad.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CB34F14204FF9F4007DD266 /* Build configuration list for PBXNativeTarget "CloudNotepad" */;
 			buildPhases = (
+				711ACE31B1AD27647B050761 /* [CP] Check Pods Manifest.lock */,
 				3CB34EFA204FF9F4007DD266 /* Sources */,
 				3CB34EFB204FF9F4007DD266 /* Frameworks */,
 				3CB34EFC204FF9F4007DD266 /* Resources */,
+				8712CCBDE6FBD51401CCA4EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,7 +196,7 @@
 		3CB34EF6204FF9F4007DD266 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "陈嘉谊";
 				TargetAttributes = {
 					3CB34EFD204FF9F4007DD266 = {
@@ -111,7 +210,6 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = 3CB34EF5204FF9F4007DD266;
@@ -129,40 +227,104 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C25535720897FE60034194D /* ShareViewController.xib in Resources */,
 				3CB34F0E204FF9F4007DD266 /* LaunchScreen.storyboard in Resources */,
 				3CB34F0B204FF9F4007DD266 /* Assets.xcassets in Resources */,
-				3CB34F09204FF9F4007DD266 /* Main.storyboard in Resources */,
+				3CDCA29A2099611800F538D9 /* CloudViewController.xib in Resources */,
+				3C014005208DC61E00BAA430 /* NoteTableViewCell.xib in Resources */,
+				3CB34F2F204FFD6C007DD266 /* SettingViewController.xib in Resources */,
+				3CF4473320945E3B00AA070E /* LoginViewController.xib in Resources */,
+				3C5075072050045500C9832C /* HomeViewController.xib in Resources */,
+				3CADCD1020985D3F006702F8 /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		711ACE31B1AD27647B050761 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudNotepad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8712CCBDE6FBD51401CCA4EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CloudNotepad/Pods-CloudNotepad-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/JGProgressHUD/JGProgressHUD/Resources/jg_hud_error.png",
+				"${PODS_ROOT}/JGProgressHUD/JGProgressHUD/Resources/jg_hud_error@2x.png",
+				"${PODS_ROOT}/JGProgressHUD/JGProgressHUD/Resources/jg_hud_error@3x.png",
+				"${PODS_ROOT}/JGProgressHUD/JGProgressHUD/Resources/jg_hud_success.png",
+				"${PODS_ROOT}/JGProgressHUD/JGProgressHUD/Resources/jg_hud_success@2x.png",
+				"${PODS_ROOT}/JGProgressHUD/JGProgressHUD/Resources/jg_hud_success@3x.png",
+				"${PODS_ROOT}/UMCCommonLog/UMCommonLog/UMCommonLog.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/jg_hud_error.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/jg_hud_error@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/jg_hud_error@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/jg_hud_success.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/jg_hud_success@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/jg_hud_success@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMCommonLog.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudNotepad/Pods-CloudNotepad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3CB34EFA204FF9F4007DD266 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CB34F06204FF9F4007DD266 /* ViewController.m in Sources */,
+				3CADCD0F20985D3F006702F8 /* RegisterViewController.m in Sources */,
+				3C56CFA820514C7000061DE6 /* TextViewController.m in Sources */,
+				3CDCA2992099611800F538D9 /* CloudViewController.m in Sources */,
+				3CD63D232099BF6200A3A3FF /* CloudAction.m in Sources */,
 				3CB34F11204FF9F4007DD266 /* main.m in Sources */,
+				3C25535620897FE60034194D /* ShareViewController.m in Sources */,
 				3CB34F03204FF9F4007DD266 /* AppDelegate.m in Sources */,
+				3CF4473220945E3B00AA070E /* LoginViewController.m in Sources */,
+				3CB34F2E204FFD6C007DD266 /* SettingViewController.m in Sources */,
+				3C66547A2093086C00D4A540 /* HomeViewController.m in Sources */,
+				3CE0988920724AAA00993B2C /* LocalDatabase.m in Sources */,
+				3C014004208DC61E00BAA430 /* NoteTableViewCell.m in Sources */,
+				3C014000208DAD2A00BAA430 /* Note.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3CB34F07204FF9F4007DD266 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3CB34F08204FF9F4007DD266 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3CB34F0C204FF9F4007DD266 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3CB34F0D204FF9F4007DD266 /* Base */,
+				3CD1EEA02052B054002A615B /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -184,6 +347,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -191,6 +355,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -229,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -239,6 +405,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -246,6 +413,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -276,29 +444,33 @@
 		};
 		3CB34F15204FF9F4007DD266 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CAD0DDF9E0F251CB76FA5E9 /* Pods-CloudNotepad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9SP34U6PL;
 				INFOPLIST_FILE = CloudNotepad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = per.chenjiayi.CloudNotepad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3CB34F16204FF9F4007DD266 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8480EACEE6388A5FEB5320CE /* Pods-CloudNotepad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9SP34U6PL;
 				INFOPLIST_FILE = CloudNotepad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = per.chenjiayi.CloudNotepad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

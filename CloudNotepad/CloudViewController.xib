@@ -1,13 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CloudViewController">
             <connections>
+                <outlet property="tableView" destination="4Of-5d-BGd" id="u0C-7Q-N4B"/>
+                <outlet property="usernameLabel" destination="Rye-7I-hLE" id="pAZ-1i-bvF"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,8 +21,65 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="uhH-Y3-vmU">
+                    <rect key="frame" x="64" y="52" width="247" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="j8p-uP-BlF"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户名" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rye-7I-hLE">
+                    <rect key="frame" x="161" y="202" width="52" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.19607843137254902" green="0.19607843137254902" blue="0.19607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="4Of-5d-BGd">
+                    <rect key="frame" x="0.0" y="223" width="375" height="200"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="ILT-71-J92"/>
+                    </constraints>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R6r-T6-Bh3">
+                    <rect key="frame" x="32" y="423" width="311" height="48"/>
+                    <color key="backgroundColor" red="1" green="0.1707771961" blue="0.1707317059" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="sVw-yg-e7L"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="退出登录">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="logoutAction:" destination="-1" eventType="touchUpInside" id="hTj-Y3-Gsk"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="R6r-T6-Bh3" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="32" id="F6R-Yg-NQQ"/>
+                <constraint firstItem="Rye-7I-hLE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="RwA-8e-uoy"/>
+                <constraint firstItem="Rye-7I-hLE" firstAttribute="top" secondItem="uhH-Y3-vmU" secondAttribute="bottom" id="iSF-ZS-fqd"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="R6r-T6-Bh3" secondAttribute="trailing" constant="32" id="if3-nZ-7lr"/>
+                <constraint firstItem="uhH-Y3-vmU" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="64" id="kQd-5L-W6R"/>
+                <constraint firstItem="R6r-T6-Bh3" firstAttribute="top" secondItem="4Of-5d-BGd" secondAttribute="bottom" id="l4P-AD-JAK"/>
+                <constraint firstItem="uhH-Y3-vmU" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="32" id="mMp-fV-aQu"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="4Of-5d-BGd" secondAttribute="trailing" id="n40-hQ-vKd"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="uhH-Y3-vmU" secondAttribute="trailing" constant="64" id="ppv-Sf-leh"/>
+                <constraint firstItem="4Of-5d-BGd" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="qoH-J1-htw"/>
+                <constraint firstItem="4Of-5d-BGd" firstAttribute="top" secondItem="Rye-7I-hLE" secondAttribute="bottom" id="rh8-q2-OCt"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="33.5" y="101.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="cloud" width="250" height="250"/>
+    </resources>
 </document>

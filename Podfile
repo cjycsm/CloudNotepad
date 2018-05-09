@@ -1,0 +1,18 @@
+platform:ios,'9.0'
+target 'CloudNotepad' do
+	pod 'FMDB'
+	pod 'YYText'
+	pod 'Masonry'
+    pod 'JGProgressHUD'
+    pod 'IQKeyboardManager'
+    pod 'UMCCommonLog'
+    pod 'UMCCommon'
+    pod 'UMCSecurityPlugins'
+    pod 'UMCShare/UI'
+    pod 'UMCShare/Social/ReducedWeChat'
+    pod 'UMCShare/Social/ReducedSina'
+    pod 'UMCShare/Social/ReducedQQ'
+    pod 'AFNetworking'
+    pod 'BmobSDK'
+    pod 'SDWebImage'
+end

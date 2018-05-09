@@ -10,4 +10,7 @@
 
 @interface ShareViewController : UIViewController
 
+@property (strong, nonatomic) UIImage *shareImage;
+@property (strong, nonatomic) NSDate *time;
+
 @end

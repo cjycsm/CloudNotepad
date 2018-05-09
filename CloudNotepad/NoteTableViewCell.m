@@ -10,6 +10,10 @@
 
 @implementation NoteTableViewCell
 
++ (instancetype)xib {
+    return [[[NSBundle mainBundle] loadNibNamed:@"NoteTableViewCell" owner:nil options:nil] firstObject];
+}
+
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code

@@ -10,4 +10,7 @@
 
 @interface CloudAction : NSObject
 
++ (void)upload;
++ (void)downloadExpectUploadArray:(NSArray *)uploadArray;
+
 @end

@@ -1,0 +1,94 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - BmobSDK (2.3.1)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - IQKeyboardManager (6.0.2)
+  - JGProgressHUD (2.0.2)
+  - Masonry (1.1.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - UMCCommon (1.5.0)
+  - UMCCommonLog (1.0.0)
+  - UMCSecurityPlugins (1.0.6)
+  - UMCShare/Core (6.9.1):
+    - UMCCommon
+  - UMCShare/Social/ReducedQQ (6.9.1):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedSina (6.9.1):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.9.1):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/UI (6.9.1):
+    - UMCCommon
+    - UMCShare/Core
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BmobSDK
+  - FMDB
+  - IQKeyboardManager
+  - JGProgressHUD
+  - Masonry
+  - SDWebImage
+  - UMCCommon
+  - UMCCommonLog
+  - UMCSecurityPlugins
+  - UMCShare/Social/ReducedQQ
+  - UMCShare/Social/ReducedSina
+  - UMCShare/Social/ReducedWeChat
+  - UMCShare/UI
+  - YYText
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - BmobSDK
+    - FMDB
+    - IQKeyboardManager
+    - JGProgressHUD
+    - Masonry
+    - SDWebImage
+    - UMCCommon
+    - UMCCommonLog
+    - UMCSecurityPlugins
+    - UMCShare
+    - YYText
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  BmobSDK: e0f9e4b451233a80af63a8ae4f2d239474bf567b
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  IQKeyboardManager: c49d59e358aeeffaa0280aa305093c2b194d2607
+  JGProgressHUD: bf75da151936cfd3c9b674afb17e8a5df2e14a7d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  UMCCommon: 82d21f4bb9532a5472cc533bbd8ed48aff376a14
+  UMCCommonLog: 05a2d5de21858e3d870551562cff405c1366d244
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  UMCShare: f8be567946c3aa68deefd03b0ffaa0710a3b07ea
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 51726084a4b7bcf1a9647ab4a091c23932243456
+
+COCOAPODS: 1.5.0

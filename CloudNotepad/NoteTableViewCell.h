@@ -10,4 +10,12 @@
 
 @interface NoteTableViewCell : UITableViewCell
 
+@property (assign, nonatomic) int idNumber;
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *textLebel;
+@property (weak, nonatomic) IBOutlet UIImageView *picView;
+@property (weak, nonatomic) IBOutlet UIImageView *lockView;
+
++ (instancetype)xib;
+
 @end

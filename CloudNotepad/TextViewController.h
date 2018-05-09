@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class Note;
+
 @interface TextViewController : UIViewController
+
+@property (nonatomic, assign) BOOL isNewText;
+
+- (void)setNote:(Note *)note;
 
 @end
